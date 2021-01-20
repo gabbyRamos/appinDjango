@@ -2,7 +2,7 @@ import requests
 
 
 def menu():
-    options = int(input("Deseja realizar uma nova consulta? \n1. Sim\n2. Sair\n"))
+    options = int(input("Deseja realizar uma nova consulta? \n1. Sim\n2. exit\n"))
 
     if options == 1:
         main()

@@ -1,0 +1,11 @@
+#Initial project
+django-admin startproject mysite
+
+#Start app
+python manage.py runserver
+
+#Create polls
+python manage.py startapp polls
+
+#Create tables from models
+python manage.py makemigrations polls

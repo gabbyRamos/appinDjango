@@ -8,4 +8,14 @@ python manage.py runserver
 python manage.py startapp polls
 
 #Create tables from models
-python manage.py makemigrations polls
+python manage.py migrate
+
+#Update on models
+python manage.py makemigrations
+
+#Create superuser
+ python manage.py createsuperuser
+
+login admin
+user: admin
+password: 123
